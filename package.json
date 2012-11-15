@@ -2,7 +2,7 @@
   "name": "punch-current-page-helper",
   "title": "Punch Current Page Helper",
   "description": "Simple helper that adds \"current\" class to a link if it points to the current page.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/laktek/punch-current-page-helper",
   "author": {
     "name": "Lakshan Perera",
@@ -23,7 +23,7 @@
     }
   ],
   "main": "lib/current_page_helper",
-	"dependencies": {
+  "dependencies": {
     "punch": ">= 0.4.0"
   },
   "devDependencies": {
@@ -36,5 +36,9 @@
   "scripts": {
     "test": "jasmine-node spec"
   },
-  "keywords": ["punch", "helper", "current"]
+  "keywords": [
+    "punch",
+    "helper",
+    "current"
+  ]
 }
