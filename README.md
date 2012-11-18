@@ -26,7 +26,7 @@ This helper is intended to use with [Punch](http://laktek.github.com/punch) web 
 
 This will add the `current` class to the link when the user visits the `/about` page.
 
-**Note**: Make sure you always use relative URLs instead of absolute URLs.
+**Note**: Between the section tags `{{#current}}..{{/current}}` you have to place the URL you want to check as the current. Make sure you always use relative URLs instead of absolute URLs.
 
 ## License
 
