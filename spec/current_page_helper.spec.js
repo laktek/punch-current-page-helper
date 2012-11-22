@@ -45,4 +45,11 @@ describe("behaviour of current helper", function() {
 		expect(current_page_helper.current("")).toEqual("");
 	});
 
+	it("don't match the case", function() {
+		var spyCallback = jasmine.createSpy();
+		current_page_helper_obj.get("/section/sub/path", ".html", {}, spyCallback);
+
+		expect(current_page_helper.current("/Section/Sub/Path")).toEqual("current");
+	});
+
 });
