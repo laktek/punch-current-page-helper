@@ -15,7 +15,7 @@ This helper is intended to use with [Punch](http://laktek.github.com/punch) web 
 		"plugins": {
 
 			"helpers": {
-				"current_page_helper": "./helpers/current_helper.js",
+				"current_page_helper": "./helpers/current_helper.js"
 			}
 
 		}
