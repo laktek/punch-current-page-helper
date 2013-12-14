@@ -24,7 +24,8 @@
   ],
   "main": "lib/current_page_helper",
   "dependencies": {
-    "punch": ">= 0.4.0"
+    "punch": ">= 0.4.0",
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "jasmine-node": ">= 1.0.26",
