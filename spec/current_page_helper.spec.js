@@ -31,6 +31,13 @@ describe("behaviour of current helper", function() {
 		expect(current_page_helper.current("/section/sub/path.html")).toEqual("current");
 	});
 
+	it("add the current class for root path", function() {
+		var spyCallback = jasmine.createSpy();
+		current_page_helper_obj.get("/index", ".html", {}, spyCallback);
+
+		expect(current_page_helper.current("/")).toEqual("current");
+	});
+
 	it("don't add the current class if the paths doesn't match", function() {
 		var spyCallback = jasmine.createSpy();
 		current_page_helper_obj.get("/section/sub/path", ".html", {}, spyCallback);
